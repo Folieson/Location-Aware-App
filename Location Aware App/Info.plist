@@ -34,6 +34,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Because I want to track you!</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Because I want to track you when the app is hiden!</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

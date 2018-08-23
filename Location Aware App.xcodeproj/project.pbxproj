@@ -12,6 +12,7 @@
 		B9B02BA8212EBAAA007FC196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B02BA6212EBAAA007FC196 /* Main.storyboard */; };
 		B9B02BAA212EBAAB007FC196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B02BA9212EBAAB007FC196 /* Assets.xcassets */; };
 		B9B02BAD212EBAAC007FC196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B02BAB212EBAAC007FC196 /* LaunchScreen.storyboard */; };
+		B9B02BB6212EC57C007FC196 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B02BB5212EC57C007FC196 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B9B02BA9212EBAAB007FC196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9B02BAC212EBAAC007FC196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9B02BAE212EBAAC007FC196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B02BB5212EC57C007FC196 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B02BB6212EC57C007FC196 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				B9B02BA1212EBAAA007FC196 /* Location Aware App */,
 				B9B02BA0212EBAAA007FC196 /* Products */,
+				B9B02BB4212EC57C007FC196 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				B9B02BAE212EBAAC007FC196 /* Info.plist */,
 			);
 			path = "Location Aware App";
+			sourceTree = "<group>";
+		};
+		B9B02BB4212EC57C007FC196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B02BB5212EC57C007FC196 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

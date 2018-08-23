@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearest address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nH7-uq-xV9">
-                                <rect key="frame" x="122.5" y="323" width="130.5" height="20.5"/>
+                                <rect key="frame" x="122.5" y="306.5" width="130.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -105,8 +105,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfk-yN-9xi">
-                                <rect key="frame" x="167" y="430" width="42" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfk-yN-9xi">
+                                <rect key="frame" x="166.5" y="367" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -116,9 +116,9 @@
                         <constraints>
                             <constraint firstItem="xru-v2-OzE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AOI-9X-2pI"/>
                             <constraint firstItem="nH7-uq-xV9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IEq-Yp-rkk"/>
-                            <constraint firstItem="zfk-yN-9xi" firstAttribute="top" secondItem="nH7-uq-xV9" secondAttribute="bottom" constant="86.5" id="Sbr-Lq-dzO"/>
+                            <constraint firstItem="zfk-yN-9xi" firstAttribute="top" secondItem="nH7-uq-xV9" secondAttribute="bottom" constant="40" id="Sbr-Lq-dzO"/>
                             <constraint firstItem="xPB-il-6Zk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VmJ-JS-ebP"/>
-                            <constraint firstItem="nH7-uq-xV9" firstAttribute="top" secondItem="xru-v2-OzE" secondAttribute="bottom" constant="56.5" id="kLW-by-tqB"/>
+                            <constraint firstItem="nH7-uq-xV9" firstAttribute="top" secondItem="xru-v2-OzE" secondAttribute="bottom" constant="40" id="kLW-by-tqB"/>
                             <constraint firstItem="xPB-il-6Zk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q2c-db-c6H"/>
                             <constraint firstItem="xru-v2-OzE" firstAttribute="top" secondItem="xPB-il-6Zk" secondAttribute="bottom" constant="40" id="tTd-Dj-NRr"/>
                             <constraint firstItem="zfk-yN-9xi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yvi-f7-iFF"/>
@@ -136,6 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
         </scene>
     </scenes>
 </document>
